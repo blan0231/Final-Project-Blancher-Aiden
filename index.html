@@ -58,6 +58,7 @@
       <picture>
            <img src="images/hospital-mgmt-careers-image.png" class="rounded mx-auto d-block" alt="Image of a hospital meeting with several people">
        </picture> <!-- closes picture for first picture tag -->
+ 
    </div>
 <section id="services" class="container-xl py-2">
      <h2 class="display-3">Room Alerts</h2>
@@ -81,8 +82,18 @@
       <div class="card rounded-0 border-0">
         <div class="card-body bg-secondary">
           <picture>
-              <img src="images/piegraph copy.png" alt="Image of a piegraph of the budget of hospital">
+            <source 
+              type="image/png"
+              srcset="
+                /piegraph-copy-500x375.png?width=500 375w,
+                /piegraph-copy-600x450.png?width=200 200w,
+                /piegraph-copy.png?width=400 400w,
+                /piegraph-copy.png?width=800 800w
+              " />
+            <img ... />
           </picture>
+
+
           <button type="button" class="btn btn-success d-grid gap-2 col-6 mx-auto">
             <a href="financial.html">Budgeting </a>
           </button>
@@ -193,11 +204,6 @@
         </div><!-- closes .col -->
 
 <!--Start to second section in the footer-->
- 
-   
-     
-
-
         <div class="col-md-6">
           <div class="card rounded-0 border-0">
                <div class="card-body bg-secondary order-0">   
