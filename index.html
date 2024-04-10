@@ -21,7 +21,7 @@
       <li></li>
     </ul> -->
 
-    <nav class="navbar navbar-expand-md p-3" style="background-color: #2793C1;">
+    <nav class="navbar navbar-expand-md  p-3 " style="background-color: #2793C1;">
       <div class="container-xl">
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
@@ -54,20 +54,26 @@
     </nav> <!-- closes nav -->
   </header> <!-- closes header -->
 <main>
-<picture>
-  <img src="images/hospital-mgmt-careers-image.png" class="rounded mx-auto d-block" alt="Image of a hospital meeting with several people">
-</picture> <!-- closes picture for first picture tag -->
-
+  <div class="container-xl bg-primary text-white">
+      <picture>
+           <img src="images/hospital-mgmt-careers-image.png" class="rounded mx-auto d-block" alt="Image of a hospital meeting with several people">
+       </picture> <!-- closes picture for first picture tag -->
+   </div>
 <section id="services" class="container-xl py-2">
-  <h2 class="display-3">Room Alerts</h2>
+     <h2 class="display-3">Room Alerts</h2>
   <div class="row g-2">
     <div class="col-md-6">
-      <div class="card rounded-0 border-0">
+      <div class="card rounded-0 border-0 ">
         <div class="card-body bg-secondary">
-          <h3 class="card-title">Digital Transformation</h3>
           <li class="card-text p-1 m-2">Room 289 seems to be having a malfunction. Please send someone to check up.</li>
           <li class="card-text p-1 m-2">Room 478 seems to be lacking new documentation. It hasn't been checked for 5 hours. </li>
           <li class="card-text p-1 m-2">Room 29 seems to be having a malfunction. The lighting there is faulting.</li>
+          <li class="card-text p-1 m-2">Room 304 lights are flicking</li>
+          <li class="card-text p-1 m-2">Room 212 documents need refreshing. No one has checked in there in 3 hours.</li>
+          <li class="card-text p-1 m-2">Room 289 seems to be having a malfunction. Please send someone to check up.</li>
+          <button type="button" class="btn btn-success d-grid gap-2 col-6 mx-auto">
+            <a href="analytics.html">More Info </a>
+          </button>
         </div><!-- closes .card-body -->
       </div><!-- closes .card -->
     </div><!-- closes .col -->
@@ -77,28 +83,206 @@
           <picture>
               <img src="images/piegraph copy.png" alt="Image of a piegraph of the budget of hospital">
           </picture>
-
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" class="btn btn-success d-grid gap-2 col-6 mx-auto">
+            <a href="financial.html">Budgeting </a>
+          </button>
         </div><!-- closes .card-body -->
       </div><!-- closes .card -->
-    </div>
-    <div class="col-md-4">
-
-      </div><!-- closes .card -->
-    </div>
+       </div>
+        </div>
       </div><!-- closes .card -->
     </div><!-- closes .col -->
-  </div><!-- closes .row -->
-</section><!-- closes services section -->
-
-
-
-
-
-
-
-
+    </div><!-- closes .row -->
+  </section><!-- closes services section -->
 </main>
+<footer class=" p-5" style="background-color: #2793C1;">
+    <section id="services" class="container-xl py-2">
+      <div class="row g-2">
+        <div class="col-md-6">
+          <div class="card rounded-0 border-0">
+               <div class="card-body bg-secondary order-0">
+                       <div>
+                         <p class="card-text">Emergency Medicine Department:</p>
+                       </div>     
+                     <div>
+                         <p class="card-text">- Dr. Sara Thompson</p>
+                     </div>                     
+                    <div>
+                       <p class="card-text">Email: sara.thompson@hospitalname.com</p>
+                      </div>                     
+                    <div>
+                      <p class="card-text">Phone: +1 (555) 234-5678</p>
+                   </div>                     
+                    <div>
+                     <p class="card-text">Position: Head of Emergency Medicine Department</p>
+                   </div>     
+             </div><!-- closes .card-body one-->
+
+            <div class="card-body bg-secondary order-1">
+                       <div>
+                         <p class="card-text">Pediatrics Department:</p>
+                     </div>     
+                     <div>
+                       <p class="card-text">- Dr. Emily Rodriguez</p>
+                    </div>                     
+                     <div>
+                        <p class="card-text">Email: emily.rodriguez@hospitalname.com</p>
+                    </div>                     
+                     <div>
+                         <p class="card-text">Phone: +1 (555) 456-7890</p>
+                     </div>                     
+                     <div>
+                        <p class="card-text">Position: Head Pediatrician </p>
+                     </div>     
+             </div><!-- closes .card-body two -->
+
+     <div class="card-body bg-primary order-2">
+              <div>
+                <p class="card-text">Surgery Department:</p>
+            </div>     
+            <div>
+              <p class="card-text">- Dr. Michael Carter</p>
+           </div>                     
+            <div>
+               <p class="card-text">Email: michael.carter@hospitalname.com </p>
+           </div>                     
+            <div>
+                <p class="card-text">Phone: +1 (555) 678-9012</p>
+            </div>                     
+            <div>
+               <p class="card-text">Position: Chief Surgeon</p>
+            </div>     
+       </div><!-- closes .card-body three-->
+
+       <div class="card-body bg-secondary order-3">
+           <div>
+               <p class="card-text">Internal Medicine Department:</p>
+             </div>     
+           <div>
+             <p class="card-text">- Dr. Benjamin Lee</p>
+            </div>                     
+            <div>
+                <p class="card-text">Email: benjamin.lee@hospitalname.com</p>
+             </div>                     
+            <div>
+                <p class="card-text">Phone: +1 (555) 890-1234</p>
+             </div>                     
+             <div>
+                <p class="card-text">Position: Head Internist</p>
+              </div>     
+         </div><!-- closes .card-body four-->
+
+         <div class="card-body bg-secondary order-4">
+              <div>
+                 <p class="card-text">Obstetrics & Gynecology Department: </p>
+               </div>     
+              <div>
+                  <p class="card-text">- Dr. Kimberly Evans</p>
+               </div>                     
+              <div>
+                  <p class="card-text">Email: kimberly.evans@hospitalname.com</p>
+               </div>                     
+              <div>
+                  <p class="card-text">Phone: +1 (555) 012-3456</p>
+               </div>                     
+              <div>
+                    <p class="card-text">Position: Head Obstetrician & Gynecologist</p>
+              </div>     
+           </div><!-- closes .card-body five  -->
+          </div><!-- closes .card -->
+        </div><!-- closes .col -->
+
+<!--Start to second section in the footer-->
+ 
+   
+     
+
+
+        <div class="col-md-6">
+          <div class="card rounded-0 border-0">
+               <div class="card-body bg-secondary order-0">   
+                   <div>
+                    <p class="card-text">- Nurse Derek Johnson</p>
+                 </div>                     
+                  <div>
+                     <p class="card-text">Email: derek.johnson@hospitalname.com</p>
+                 </div>                     
+                  <div>
+                      <p class="card-text">Phone: +1 (555) 345-6789</p>
+                  </div>                     
+                  <div>
+                     <p class="card-text">Position: Nurse Manager, Emergency Medicine Department</p>
+                  </div>         
+             </div><!-- closes .card-body one-->
+
+            <div class="card-body bg-secondary order-1">     
+                       <div>
+                         <p class="card-text">- Nurse Jessica Martinez</p>
+                     </div>                     
+                     <div>
+                       <p class="card-text">Email: jessica.martinez@hospitalname.com</p>
+                   </div>                     
+                   <div>
+                      <p class="card-text">Phone: +1 (555) 567-8901 </p>
+                 </div>                     
+                  <div>
+                    <p class="card-text"> Position: Nurse Manager, Pediatrics Department</p>
+                 </div>
+             </div><!-- closes .card-body two -->
+
+       <div class="card-body bg-primary order-2">
+            <div>
+              <p class="card-text">- Nurse Rachel Williams </p>
+           </div>                     
+            <div>
+               <p class="card-text">Email: rachel.williams@hospitalname.com</p>
+           </div>                     
+            <div>
+                <p class="card-text">Phone: +1 (555) 789-0123</p>
+            </div>                     
+            <div>
+               <p class="card-text">Position: Nurse Manager, Surgery Department</p>
+            </div>     
+         </div><!-- closes .card-body three-->
+
+       <div class="card-body bg-secondary order-3">   
+           <div>
+             <p class="card-text"> - Nurse Megan Clark </p>
+            </div>                     
+            <div>
+                <p class="card-text">Email: megan.clark@hospitalname.com  </p>
+             </div>                     
+            <div>
+                <p class="card-text">Phone: +1 (555) 901-2345 </p>
+             </div>                     
+             <div>
+                <p class="card-text">Position: Nurse Manager, Internal Medicine Department</p>
+              </div>     
+         </div><!-- closes .card-body four-->
+            
+         <div class="card-body bg-secondary order-4">    
+              <div>
+                  <p class="card-text">- Nurse Peter Adams </p>
+               </div>                     
+              <div>
+                  <p class="card-text">Email: peter.adams@hospitalname.com </p>
+               </div>                     
+              <div>
+                  <p class="card-text">Phone: +1 (555) 123-4567 </p>
+               </div>                     
+              <div>
+                    <p class="card-text">Position: Nurse Manager, Obstetrics & Gynecology Department</p>
+              </div>     
+           </div><!-- closes .card-body five  -->
+        </div><!-- closes .col -->
+      </div><!-- closes .row -->
+    </section><!-- closes services section -->
+
+
+    <div class="card-body bg-secondary">
+      <p>Copyright Information: © 2024 Greenview General Hospital. All rights reserved.  This website is intended for informational purposes only. It is not intended to provide medical advice or replace the expertise and judgment of healthcare professionals</p> 
+    </div>
+</footer> <!-- closes footer -->
       <!-- Bootstrap JS Link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

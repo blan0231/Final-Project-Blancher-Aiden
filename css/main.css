@@ -2,13 +2,12 @@
 [data-bs-theme=light], 
 [data-bs-theme=dark] {
    --bs-primary: #46B7B7;
-   --bs-primary-rgb: 177, 126, 6;
+   --bs-primary-rgb: 70, 183, 183;
    --bs-secondary: #46B7B7;
-   --bs-secondary-rgb: 255, 230, 172;
+   --bs-secondary-rgb: 70, 183, 183;
    --cs-primary-dark: #46B7B7;
-   --cs-primary-dark-rgb: 174, 122, 1;
+   --cs-primary-dark-rgb: 70, 183, 183;
 }
-
 .btn-outline-primary {
     --bs-btn-color: #46B7B7;
     --bs-btn-border-color: #46B7B7;
