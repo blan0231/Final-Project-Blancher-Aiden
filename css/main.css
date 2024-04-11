@@ -60,6 +60,17 @@ a:active {
   text-align: left;
 }
 
+.client {
+  margin-left: 240px;
+  margin-top: 200px;
+  margin-right: 50px;
+}
+
+.complaint {
+  margin-left: 240px;
+  margin-top: 200px;
+  margin-right: 50px;
+}
 
 @media only screen and (max-width:800) {
   * {
@@ -69,4 +80,11 @@ a:active {
   #list {
     text-align: center;
   }
-}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}  
